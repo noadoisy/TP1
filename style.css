@@ -48,7 +48,6 @@ nav {
     display: flex;
     background-color: rgb(148, 240, 163);
     justify-content: center;
-    width: 100%;
 }
 
 nav ul {
@@ -118,15 +117,13 @@ nav ul li a {
 #bas{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-    width: 100%;
-    height: 280px;
+    width:100%;
+    padding : 10px;
     background-color: aquamarine;
     justify-content:center;
 }
 footer {
     background-color: #5fc2a0;
-    padding: 30px 0;
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -135,12 +132,9 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .footer-section {
-    min-width: 200px;
     margin: 10px;
 }
 
@@ -188,3 +182,4 @@ footer {
 .contact-button:hover {
     background-color: #006852;
 }
+
